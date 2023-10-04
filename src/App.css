@@ -3,26 +3,22 @@
 }
 body{
   background-color: rgb(255, 246, 235) ;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-
 
 .tasks{
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .box{
   margin: 50px;
   background-color: white;
-  padding: 45px;
-  
+  padding: 30px;
+  padding-bottom: 0;
 }
 
-h1{
-  background-color: white;
-}
 
 .button{
   font-size: 70px;
@@ -31,20 +27,58 @@ h1{
   border: none;
   color: rgb(108, 161, 108);
   margin-top: 120px;
+  margin-bottom: 0;
 }
 
 form{
   background-color: white;
   font-size: 21px;
   text-align: left;
+  padding: 10px;
+  margin-top:17px ;
 }
 .chkbox{
   float: right;
-  width: 20px;
-  height: 20px;
+  height: 15px;
+  width: 15px;
 }
 
 label, input{
   background-color: white;
   font-size: 20px;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+.check {
+  margin-top: 30px;
+}
+
+.dateAndDay{
+  background-color: white;
+  margin-bottom: 0;
+  font-size: 20px;
+  display:flex;
+}
+
+.day{
+ padding-left: 105px;
+ text-align: right;
+ text-transform: uppercase;
+}
+.date{
+  text-align: left;
+  padding-left: 15px;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
 }
